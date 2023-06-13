@@ -1,6 +1,9 @@
 # sprints_nginx
 
 - create basic website to print hello sprints in index.html
+- install nginx
+- sudo apt update
+- sudo apt install nginx 
 
 ![change in html file](https://github.com/nourmohamed99/sprints_nginx/assets/88977873/19d5f92e-d238-423c-b10d-8e22c49e9c4e)
 
@@ -39,6 +42,10 @@
 - next
 - browse certificate created in desktop 
 - then next and finish 
+
+-open terminal in instances and restart nginx
+- sudo nginx -t
+- sudo systemctl restart nginx
 
 - open microsoft edge private browser 
 - and type https://nour.com
