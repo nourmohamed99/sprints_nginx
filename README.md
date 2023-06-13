@@ -20,7 +20,7 @@
  (with the same steps as above)
  
  
- - open notepad++ as adminstrator then open c:/windows/system32/drivers/etc/hosts
+ - open notepad++ and run as adminstrator then click open and choose path c:/windows/system32/drivers/etc/hosts
  - and add the public ip of the instance running and domain
  - ![localhost](https://github.com/nourmohamed99/sprints_nginx/assets/88977873/abcde1ef-180b-42bb-82d3-8a6d6895ac19)
 
