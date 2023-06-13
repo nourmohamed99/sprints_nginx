@@ -1,9 +1,13 @@
 # sprints_nginx
 
-- create basic website to print hello sprints in index.html
+# create basic website to print hello sprints in index.html
 - install nginx
 - sudo apt update
 - sudo apt install nginx 
+
+![instance](https://github.com/nourmohamed99/sprints_nginx/assets/88977873/1061db14-0d79-4112-a56c-11c90317f095)
+
+![install](https://github.com/nourmohamed99/sprints_nginx/assets/88977873/034ae0b4-bade-4ae0-888a-202aa5e48dd2)
 
 ![change in html file](https://github.com/nourmohamed99/sprints_nginx/assets/88977873/19d5f92e-d238-423c-b10d-8e22c49e9c4e)
 
@@ -12,7 +16,7 @@
 ![html](https://github.com/nourmohamed99/sprints_nginx/assets/88977873/81330d53-0b28-404f-941d-74572eae5141)
 
 
- - configure the same website to serve traffic with SSL self signed certificate
+ # configure the same website to serve traffic with SSL self signed certificate
  (with the same steps as above)
  
  
@@ -50,7 +54,7 @@
 - open microsoft edge private browser 
 - and type https://nour.com
 - it should change from this  
-- ![notsecure](https://github.com/nourmohamed99/sprints_nginx/assets/88977873/9f63aa36-c27c-48a3-ac2e-ccf4320dfd3f)
+![notsecure](https://github.com/nourmohamed99/sprints_nginx/assets/88977873/9f63aa36-c27c-48a3-ac2e-ccf4320dfd3f)
 - to this 
 ![secure](https://github.com/nourmohamed99/sprints_nginx/assets/88977873/bd76570c-27f0-4add-95e6-9396ff802efc)
 
