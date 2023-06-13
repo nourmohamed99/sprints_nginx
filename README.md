@@ -12,6 +12,12 @@
  - configure the same website to serve traffic with SSL self signed certificate
  (with the same steps as above)
  
+ 
+ - open notepad++ as adminstrator then open c:/windows/system32/drivers/etc/hosts
+ - and add the public ip of the instance running and domain
+ - ![localhost](https://github.com/nourmohamed99/sprints_nginx/assets/88977873/abcde1ef-180b-42bb-82d3-8a6d6895ac19)
+
+ 
  ![bash](https://github.com/nourmohamed99/sprints_nginx/assets/88977873/a171e3cf-3f56-460d-805a-68159f3d9cab)
 ![bash code](https://github.com/nourmohamed99/sprints_nginx/assets/88977873/b13cf2fc-acb3-4762-b8c8-172e9a571921)
 
@@ -23,5 +29,21 @@
 
 ![default file](https://github.com/nourmohamed99/sprints_nginx/assets/88977873/a59fe073-9710-4be3-a8ca-f2e33202ea04)
 
+- copy the rootCA.crt in a textfile (desktop) and the change extension instead of .txt to .crt 
 
-![crt](https://github.com/nourmohamed99/sprints_nginx/assets/88977873/da7018cc-96b7-4aef-9777-3b24e8a44842)
+![rootCa](https://github.com/nourmohamed99/sprints_nginx/assets/88977873/4c949d34-c628-4350-b1de-7f70a718c204)
+- then open manager user certificates 
+- right click in a empty space 
+- select all tasks
+- select import
+- next
+- browse certificate created in desktop 
+- then next and finish 
+
+- open microsoft edge private browser 
+- and type https://nour.com
+- it should change from this  
+- ![notsecure](https://github.com/nourmohamed99/sprints_nginx/assets/88977873/9f63aa36-c27c-48a3-ac2e-ccf4320dfd3f)
+- to this 
+![secure](https://github.com/nourmohamed99/sprints_nginx/assets/88977873/bd76570c-27f0-4add-95e6-9396ff802efc)
+
